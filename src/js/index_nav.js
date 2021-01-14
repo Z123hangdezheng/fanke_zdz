@@ -1,0 +1,16 @@
+$(function(){
+$('#nav_card>li').click(function(){
+    $(this)
+    .toggleClass('active')
+    .siblings()
+    .removeClass('active')
+    $(this)
+    .find('ol')
+    .slideToggle()
+    .parent()
+    .siblings()
+    .removeClass('active')
+    .find('ol')
+    .slideUp()
+})
+})

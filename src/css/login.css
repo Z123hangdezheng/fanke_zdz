@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+   display: block;
+}
+/* header 区 */
+.header{
+    height: 70px;
+    background-color:#fff;
+    border-bottom: 1px solid #7a7f89;
+}
+.header-aq{
+    height: 70px;
+    width: 1200px;
+    margin: 0 auto;
+    background: #fff url(../img/logo-login.jpg) no-repeat 5px 16px ;
+}
+.header-aq>a{
+  float: right;
+  margin-top: 37px;
+  font-size: 12px;
+  margin-right: 15px;
+  color: black;
+}
+
+/* main 区 */
+.main{
+    height: 523px;
+    background-color: #fff;
+    border-bottom: 1px solid #7a7f89;
+}
+.main-aq{
+    height: 523px;
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.left {
+    height: 523px;
+    width: 679px;
+    float: left;
+    box-sizing: border-box;
+}
+.left>img{
+    padding-top:111px ;
+    margin-left: 176px;
+}
+.left ul{
+    display: flex;
+    align-items: center;
+    margin-left: 261px;
+    margin-top: 27px;
+}
+.left ul li:nth-child(2){
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.right{
+    height: 523px;
+    width: 403px;
+    float: right;
+    margin-right: 100px;
+    box-sizing: border-box;
+
+    
+}
+.right>h1{
+    font-size: 23px;
+    color: #979797;
+    font-weight: 600;
+    float: left;
+    margin-top: 54px;
+    margin-bottom: 19px;
+}
+.right>p{
+    float: right;
+    font-size: 14px;
+    color: #7a7f89;
+    margin-top: 57px;
+}
+.right>p a{
+    color: #b42025;
+}
+.right .login{
+    height: 408px;
+    width: 400px;
+    border: 1px solid #d1d1d1;
+    margin-top: 93px;
+
+}
+.login ul{
+    width: 400px;
+    display: flex;
+   
+}
+
+.login ul li{
+    height: 35px;
+    width: 200px;
+    line-height:35px ;
+    text-align: center;
+    font-size: 15px;
+    color: #656565;
+    border-bottom: 1px solid #cbcbcb;
+    cursor: pointer;
+}
+.login ul li.active{
+    background-color: #b42025;
+    color:#ecf1ff;
+}
+
+
+.login ol{
+    position: relative;
+}
+.right .login ol li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.login ol li.active{
+    display: block;
+}
+ .login ol li:nth-child(1){
+   
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.login ol li:nth-child(1) input{
+    width: 97%;
+    height: 45px;
+    border: 1px solid #d1d1d1;
+    margin-top: 27px;
+    font-size: 14px;
+    color: #d1d1d1;
+    padding-left: 10px;
+    outline: none;
+}
+.login ol li:nth-child(1) a{
+    font-size:14px ;
+    color: #b42025;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.login ol li:nth-child(1) button{
+    width: 100%;
+    height: 45px;
+    background-color: #b42025;
+    font-size: 18px;
+    color: #ecf1ff;
+    margin-top: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.login ol li:nth-child(1) div{
+   height: 90px;
+   border-top: 1px dashed #cbcbcb;
+   margin-top:20px ;
+}
+.login ol li:nth-child(1) div span{
+  display: block;
+  font-size: 13px;
+  color: #b8a4a4;
+  margin-top: 10px;
+}
+.login ol li:nth-child(1) div p{
+    height: 60px;
+    
+}
+.login ol li:nth-child(1) div p a{
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+}
+
+.login ol li:nth-child(2){
+   
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.login ol li:nth-child(2) input{
+    height: 45px;
+    width: 97%;
+    border: none;
+    border: 1px solid #cbcbcb;
+    outline: none;
+    margin-top: 15px;
+    padding-left: 10px;
+    font-size: 13px;
+    color:#d1d1d1 ;
+}
+.login ol li:nth-child(2) input:nth-of-type(1){
+    height: 45px;
+    width: 65%;
+}
+.login ol li:nth-child(2) button{
+    height: 45px;
+    width: 98%;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #cbcbcb;
+}
+.login ol li:nth-child(2) button:nth-of-type(1){
+    width:30%;
+    font-size: 13px;
+    color: #b42025;
+}
+.login ol li:nth-child(2) button:nth-of-type(2){
+    margin-top: 10px;
+    background-color: #b42025;
+    color: #ecf1ff;
+}
+
+.login ol li:nth-child(2) div{
+    height: 90px;
+    border-top: 1px dashed #cbcbcb;
+    margin-top:20px ;
+ }
+ .login ol li:nth-child(2) div span{
+   display: block;
+   font-size: 13px;
+   color: #b8a4a4;
+   margin-top: 10px;
+  
+ }
+ .login ol li:nth-child(2) div p{
+     height: 60px;
+     line-height: 60px;
+     
+ }
+ .login ol li:nth-child(2) div p a{
+     display: inline-block;
+     float: left;
+     margin-left: 15px;
+     margin-top: 10px;
+ }
+ /*  footer 区 */
+ .footer{
+     height: 335px;
+ }
+ .footer .footer-aq{
+     height: 335px;
+     width: 1200px;
+    background-color:#ffffff;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 27px;
+ }
+ .footer p{
+     font-size: 13px;
+     color: #999999;
+    margin-left: 160px;
+
+ }
+ .footer ul{
+     width: 520px;
+     display: flex;
+     margin-left: 337px;
+     margin-top: 20px;
+     align-items: center;
+     justify-content: space-between;
+}
+
+

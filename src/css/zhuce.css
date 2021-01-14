@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+   display: block;
+}
+/* header 区 */
+.header{
+    height: 70px;
+    background-color:#fff;
+    border-bottom: 1px solid #7a7f89;
+}
+.header-aq{
+    height: 70px;
+    width: 1200px;
+    margin: 0 auto;
+    background: #fff url(../img/logo-login.jpg) no-repeat 5px 16px ;
+}
+.header-aq>a{
+  float: right;
+  margin-top: 37px;
+  font-size: 12px;
+  margin-right: 15px;
+  color: black;
+}
+.main{
+    height: 523px;
+    background-color: #fff;
+    border-bottom: 1px solid #7a7f89;
+}
+.main-aq{
+    height: 523px;
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.left {
+    height: 523px;
+    width: 679px;
+    float: left;
+    box-sizing: border-box;
+}
+.left>img{
+    padding-top:111px ;
+    margin-left: 176px;
+}
+.left ul{
+    display: flex;
+    align-items: center;
+    margin-left: 261px;
+    margin-top: 27px;
+}
+.left ul li:nth-child(2){
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.right{
+    height: 523px;
+    width: 403px;
+    float: right;
+    margin-right: 100px;
+    box-sizing: border-box;
+
+    
+}
+.right>h1{
+    font-size: 23px;
+    color: #979797;
+    font-weight: 600;
+    float: left;
+    margin-top: 54px;
+    margin-bottom: 19px;
+}
+.right>p{
+    float: right;
+    font-size: 14px;
+    color: #7a7f89;
+    margin-top: 57px;
+}
+.right>p a{
+    color: #b42025;
+}
+.right .login{
+    height: 350px;
+    width: 400px;
+    border: 1px solid #d1d1d1;
+    margin-top: 93px;
+    box-sizing: border-box;
+    padding: 30px 10px;
+}
+
+.login input{
+    display: block;
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border: 1px solid #979797;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    color: #b8a4a4;
+}
+.login button{
+    height: 45px;
+    width: 100%;
+    background-color: #b42025;
+    font-size: 18px;
+    color: #ecf1ff;
+    margin-top: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.login  div{
+    height: 90px;
+    border-top: 1px dashed #cbcbcb;
+    margin-top:20px ;
+ }
+ .login  div span{
+   display: block;
+   font-size: 13px;
+   color: #b8a4a4;
+   margin-top: 10px;
+ }
+ .login  div p{
+     height: 60px;
+     margin-top: 20px;
+     
+ }
+ .login  div p a{
+     display: inline-block;
+     float: left;
+     margin-left: 15px;
+ }
+
+ /*  footer 区 */
+ .footer{
+    height: 335px;
+}
+.footer .footer-aq{
+    height: 335px;
+    width: 1200px;
+   background-color:#ffffff;
+   margin: 0 auto;
+   box-sizing: border-box;
+   padding-top: 27px;
+}
+.footer p{
+    font-size: 13px;
+    color: #999999;
+   margin-left: 160px;
+
+}
+.footer ul{
+    width: 520px;
+    display: flex;
+    margin-left: 337px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
